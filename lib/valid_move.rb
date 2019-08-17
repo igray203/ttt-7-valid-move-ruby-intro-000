@@ -8,7 +8,7 @@ def valid_move?(array,index)
         then return true
       else return false
     end
-  elsif position_taken(array,index) == true
+  elsif position_taken?(array,index) == true
     then return false
   end
 
