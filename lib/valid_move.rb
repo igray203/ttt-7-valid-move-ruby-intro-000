@@ -5,7 +5,7 @@ def valid_move?(array,index)
   if position_taken?(board,index) == true
     then return false
   elsif position_taken(board,index) == false
-    then return true 
+    then return true
   end
 
 end
