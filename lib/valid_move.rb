@@ -2,13 +2,13 @@
 board = ["","","","","","","","",""]
 
 def valid_move?(array,index)
-  if position_taken?(board,index) == false
+  if position_taken?(array,index) == false
     then
       if index.between?(0,8) == true
         then return true
     else return false
     end
-  elsif position_taken(board,index) == true
+  elsif position_taken(array,index) == true
     then return false
   end
 
