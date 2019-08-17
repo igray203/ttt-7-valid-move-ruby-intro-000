@@ -6,7 +6,7 @@ def valid_move?(array,index)
     then
       if index.between?(0,8) == true
         then return true
-    else return false
+      else return false
     end
   elsif position_taken(array,index) == true
     then return false
